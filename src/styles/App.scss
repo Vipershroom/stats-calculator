@@ -8,11 +8,19 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    
+
     .card {
         width: 45%;
         height: 50vh;
         border: 1px solid black;
+
+        .calculator-nav {
+            padding: .5rem;
+            border-bottom: 1px solid black;
+            ul > li {
+                width: 20%;
+            }
+        }
     }
 
     nav > ul {
