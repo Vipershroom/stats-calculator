@@ -6,13 +6,15 @@ function App() {
 
   return (
     <div className='app'>
-      <nav className='calculator-nav'>
-        <ul>
-          <li>Mean, Median, Mode</li>
-        </ul>
-      </nav>
-      <div className="content">
+      <div className="card">
+        <nav className='calculator-nav'>
+          <ul>
+            <li>Mean, Median, Mode</li>
+          </ul>
+        </nav>
+        <div className="content">
         
+        </div>
       </div>
     </div>
   )
